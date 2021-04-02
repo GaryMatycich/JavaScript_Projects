@@ -49,3 +49,8 @@ function randomNum() {
     z = Math.floor(Math.random() * 100);  // utilizing both the math object and the random function
     document.getElementById("randomMath").innerHTML = z;
 }
+
+function test() {
+    z = Math.random() * 100;  
+    document.getElementById("testMath").innerHTML = z;
+}
